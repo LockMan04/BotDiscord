@@ -2,7 +2,7 @@
 
 AgentBot là một Discord bot hướng tới trải nghiệm "agent": thay vì nhớ từng lệnh, bạn chỉ cần nói bằng ngôn ngữ tự nhiên — bot sẽ hiểu, chọn công cụ phù hợp và thực thi.
 
-Tính năng chính
+## Tính năng chính
 - Agent (Natural Language Actions): hiểu ý định từ câu lệnh tự nhiên và tự quyết định chuỗi hành động cần thiết.
 - Music agent: tìm bài, thêm vào queue, join voice, phát/pause/skip/stop, tự tiếp tục phát playlist.
 - AI Chat: hội thoại nhiều lượt với persona, trả lời tự nhiên và ngữ cảnh.
@@ -10,7 +10,7 @@ Tính năng chính
 - Hành động chuỗi (chaining): kết hợp nhiều bước (ví dụ: tìm playlist → thêm hàng loạt → bắt đầu phát).
 - Quyền & giới hạn: có thể giới hạn hành động trong kênh hoặc theo role.
 
-Demo — ví dụ yêu cầu bằng ngôn ngữ tự nhiên
+## Demo — ví dụ yêu cầu bằng ngôn ngữ tự nhiên
 - "Vào voice với tao"  
   → Bot join voice channel hiện tại.
 
@@ -35,13 +35,16 @@ Demo — ví dụ yêu cầu bằng ngôn ngữ tự nhiên
 - "Hôm nay ở Hà Nội bao nhiêu độ?"  
   → Bot trả dữ liệu thời tiết.
 
-Nguyên tắc dùng
+## Nguyên tắc dùng
 - Giao tiếp bằng câu tự nhiên; càng rõ mục tiêu càng chính xác kết quả.
 - Agent sẽ tự quyết định tool và chuỗi hành động; chỉ can thiệp khi cần chỉnh thủ công.
 - Bot ưu tiên trải nghiệm trực quan, giảm nhu cầu nhớ lệnh tường minh.
 
-Mục tiêu
+## Mục tiêu
 - Giảm gánh nặng nhớ lệnh, tăng hiệu quả tương tác: bạn nói — AgentBot tự lo phần còn lại.
 
-Liên hệ
+## Liên hệ
 - Tác giả: LockMan04.
+
+## Chú thích
+- ⚠️Chỉ là file `main.py` demo. Các tính năng chưa được public, vui lòng liên hệ tôi để tìm hiểu thêm⚠️
