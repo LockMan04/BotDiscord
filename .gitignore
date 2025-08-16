@@ -1,0 +1,16 @@
+/.env
+/.venv
+/dev.py
+**/__pycache__/
+
+/.vscode
+/.idea
+
+cookies/
+test.py
+client_secret.json
+
+data/
+utils/
+
+Dockerfile

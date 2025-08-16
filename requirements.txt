@@ -1,0 +1,10 @@
+discord.py[voice]
+python-dotenv
+PyNaCl
+google-genai
+google-generativeai
+google
+requests
+yt_dlp
+aiohttp
+ffmpeg-python
